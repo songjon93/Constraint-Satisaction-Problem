@@ -345,7 +345,6 @@ if (upperbound_x - lowerbound_x >= len(v_1) + len(v_2)) or (upperbound_y - lower
 Upperbound_x is the rightmost coordinate, lowerbound_x is the leftmost coordinate. And the **difference between upperbound_x and lowerbound_x** shall never be smaller than **the sum of the width of component piece A and the width of the component piece B.**
 
 And upperbound_y is the topmost coordinate, lowerbound_y i the bottommost coordinate. The **difference between upperbound_y and lowerbound_y** shall never be smaller than **the sum of the height of component piece A and the height of the component piece B.**
-### Extra Credit
 
 #### Min_Conflicts()
 The function can be found in ConstraintedSatisfactionProblem.py in CSP_EC and the test case can be found in CircuitBoardTest.py.
